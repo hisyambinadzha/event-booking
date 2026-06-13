@@ -4,8 +4,8 @@ import { login } from "../services/user-service";
 import AuthForm from "../components/AuthForm";
 
 function LoginPage() {
-  const [email, setEmail] = useState("admin@gmail.com");
-  const [password, setPassword] = useState("password");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 

@@ -51,7 +51,7 @@ const AdminBookingPage = () => {
       <>
         <div className="empty-card">
           <span className="empty-icon">🎉</span>
-          {error || "We couldn’t load the bookings. Please try again later."}
+          <p>{error || "We couldn’t load the bookings. Please try again later."}</p>
         </div>
       </>
     );

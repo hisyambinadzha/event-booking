@@ -43,7 +43,7 @@ The application uses JWT tokens for authentication. To authenticate, users can r
 
 #### Register a New User
 
-![My Image](/screenshots/register.png)
+![My Image](/event-booking-app/screenshots/register.png)
 
 To register, navigate to the **Register** page from the navigation bar or homepage.  
 - Enter your **Full Name**, **Email**, **Password**, and **Confirm Password**.  
@@ -52,7 +52,7 @@ To register, navigate to the **Register** page from the navigation bar or homepa
 
 #### Login User
 
-![My Image](/screenshots/login.png)
+![My Image](/event-booking-app/screenshots/login.png)
 
 To log in, navigate to the **Login** page.  
 - Enter your **Email** and **Password**.  
@@ -66,25 +66,25 @@ The application will respond with a JWT token that should be stored in local sto
 
 #### Browse Events
 
-![My Image](/screenshots/home-page.png)
+![My Image](/event-booking-app/screenshots/home-page.png)
 
 To browse events, navigate to the homepage. The application will display a list of events, sorted by date. Users can filter events by category using the dropdown menu.
 
 #### View Event Details
 
-![My Image](/screenshots/event-page.png)
+![My Image](/event-booking-app/screenshots/event-page.png)
 
 To view event details, click on an event card. The application will display the event's date, time, location, description, and other details.
 
 #### Book an Event
 
-![My Image](/screenshots/booking-form.png)
+![My Image](/event-booking-app/screenshots/booking-form.png)
 
 To book an event, click on the "Book" button on the event details page. The application will prompt the user to enter their name and email address. Once the booking is submitted, the application will display a confirmation message.
 
 #### My Booking Page
 
-![My Image](/screenshots/my-booking-page.png)
+![My Image](/event-booking-app/screenshots/my-booking-page.png)
 
 The **Booking History** allows users to view their personal booking history.  
 - Displays details such as **Event Name**, **Date**, **Seats Booked**, **Total Price**, and **Booking Status**.  
@@ -94,8 +94,8 @@ The **Booking History** allows users to view their personal booking history.
 
 #### Create Event
 
-![My Image](/screenshots/create-event-1.png)
-![My Image](/screenshots/create-event-2.png)
+![My Image](/event-booking-app/screenshots/create-event-1.png)
+![My Image](/event-booking-app/screenshots/create-event-2.png)
 
 To create a new event, navigate to the **Create Event** page (available only to administrators).  
 - The application will display a form where the admin can enter event details such as **Title**, **Description**, **Category**, **Venue**, **Event Date**, **Price**, **Capacity**, and **Image**.  
@@ -106,20 +106,20 @@ To create a new event, navigate to the **Create Event** page (available only to 
 
 #### Edit an Event (Admin Feature)
 
-![My Image](/screenshots/edit-event-1.png)
-![My Image](/screenshots/edit-event-2.png)
+![My Image](/event-booking-app/screenshots/edit-event-1.png)
+![My Image](/event-booking-app/screenshots/edit-event-2.png)
 
 To edit an event, click on the "Edit" button on the event details page. The application will display a form to edit the event's details. Once the form is submitted, the application will update the event details.
 
 #### Delete an Event (Admin Feature)
 
-![My Image](/screenshots/delete-event.png)
+![My Image](/event-booking-app/screenshots/delete-event.png)
 
 To delete an event, click on the "Delete" button on the event details page. The application will prompt the user to confirm the deletion. Once the deletion is confirmed, the application will remove the event from the database.
 
 #### User Bookings List Page (Admin Feature)
 
-![My Image](/screenshots/user-bookings-page.png)
+![My Image](/event-booking-app/screenshots/user-bookings-page.png)
 
 The **All User Bookings** allows administrators to view all bookings made by users.  
 - The page displays booking details such as **User Name**, **Event Title**, **Number of Seats**, **Booking Date**, **Total Price**, and **Booking Status**.  
@@ -127,8 +127,8 @@ The **All User Bookings** allows administrators to view all bookings made by use
 
 #### Dashboard (Admin Feature)
 
-![My Image](/screenshots/admin-dashboard-1.png)
-![My Image](/screenshots/admin-dashboard-2.png)
+![My Image](/event-booking-app/screenshots/admin-dashboard-1.png)
+![My Image](/event-booking-app/screenshots/admin-dashboard-2.png)
 
 The **Dashboard** provides a centralized view of system activity.  
 - Displays statistics such as **Total Bookings per Event**, **Revenue per Event**, **Total Revenue**, and **Seats Sold by Category**.  
