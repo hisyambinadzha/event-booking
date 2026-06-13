@@ -1,0 +1,54 @@
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.booking-table th,
+.booking-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.booking-table th {
+  background-color: #f3f4f6;
+  font-weight: bold;
+}
+
+/* ✅ Status colors */
+.status.pending {
+  color: #ffbf00; /* dark amber / dark yellow */
+}
+
+.status.approved {
+  color: #166534; /* green */
+}
+
+.status.cancelled {
+  color: #dc2626; /* red */
+}
+
+.status.rejected {
+  color: #6b7280; /* gray */
+}
+
+/* ✅ Cancel button styled as danger */
+.cancel-btn {
+  background-color: #ef4444; /* red */
+  color: #fff;
+  border: none;
+  padding: 10px; /* more padding for height */
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* ✅ stretch across the table cell */
+  text-align: center;
+  display: block;
+}
+
+.cancel-btn:hover {
+  background-color: #b91c1c; /* darker red on hover */
+}
+
+.no-action {
+  color: #9ca3af; /* gray */
+}

@@ -1,0 +1,207 @@
+body {
+    background: #f4f6f9;
+}
+
+/* Card container */
+.event-form {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.event-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Floating label group */
+.form-group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    background: transparent;
+}
+
+.form-group textarea {
+    width: 100%;
+    min-height: 140px;
+    /* bigger and balanced */
+    padding: 16px 12px;
+    /* more vertical space */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    line-height: 1.5;
+    box-sizing: border-box;
+    /* ✅ important */
+}
+
+.form-group textarea:focus+label,
+.form-group textarea:not(:placeholder-shown)+label {
+    top: -8px;
+    font-size: 11px;
+    color: #007bff;
+}
+
+/* Floating label */
+.form-group label {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    font-size: 13px;
+    color: #999;
+    pointer-events: none;
+    transition: 0.2s ease;
+    background: white;
+    padding: 0 5px;
+}
+
+/* Move label when typing */
+.form-group input:focus+label,
+.form-group input:not(:placeholder-shown)+label,
+.form-group textarea:focus+label,
+.form-group textarea:not(:placeholder-shown)+label {
+    top: -8px;
+    font-size: 11px;
+    color: #007bff;
+}
+
+/* Focus effects */
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #007bff;
+}
+
+.form-group label.active {
+    top: -8px;
+    font-size: 11px;
+    color: #007bff;
+}
+
+/* Grid layout */
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* Image upload */
+.image-upload-card {
+    border: 2px dashed #d0d7e2;
+    border-radius: 12px;
+    padding: 20px;
+    background: #f9fbff;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Title */
+.upload-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Row layout */
+.upload-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Button */
+.file-button {
+    background: #28a745;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.file-button:hover {
+    background: #218838;
+}
+
+/* File text */
+.file-name {
+    font-size: 13px;
+    color: #666;
+}
+
+/* Preview */
+.preview-container img {
+    width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Action buttons container */
+.form-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+/* Save button (Danger) */
+.save-btn {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #dc2626, #b91c1c); /* red gradient */
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.save-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(220, 38, 38, 0.3);
+}
+
+/* Close button (Blue) */
+.cancel-btn {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #007bff, #0056b3); /* blue gradient */
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cancel-btn:hover {
+    background: linear-gradient(135deg, #0056b3, #004080); /* darker blue on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4); /* blue shadow */
+}

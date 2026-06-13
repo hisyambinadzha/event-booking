@@ -1,0 +1,110 @@
+/* Base layout */
+.report-page {
+  background: #f9fafb;
+  min-height: 100vh;
+  padding: 40px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333;
+  margin: -40px;
+}
+
+/* Page header */
+.report-page h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #1f2937;
+}
+
+/* Section headers */
+.report-section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #2563eb;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+/* Card grid */
+.report-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+/* Individual card */
+.report-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.report-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Card title */
+.report-card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #374151;
+}
+
+/* Card value */
+.report-card .value {
+  font-size: 22px;
+  font-weight: bold;
+  color: #111827;
+}
+
+/* List styling */
+.report-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.report-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.report-list li:last-child {
+  border-bottom: none;
+}
+
+/* Category colors */
+.category-sales {
+  color: #10b981;
+  /* green */
+}
+
+.category-revenue {
+  color: #f59e0b;
+  /* amber */
+}
+
+.category-popular {
+  color: #ef4444;
+  /* red */
+}
+
+/* Empty box style */
+.empty-box {
+  padding: 30px;
+  text-align: center;
+  border: 2px dashed #d1d5db;
+  border-radius: 10px;
+  background: #f9fafb;
+  color: #6b7280;
+  font-size: 14px;
+  font-style: italic;
+}
+
+

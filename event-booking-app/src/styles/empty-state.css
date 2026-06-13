@@ -1,0 +1,23 @@
+.empty-card {
+  text-align: center;
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.empty-icon {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.empty-card h2 {
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.empty-card p {
+  color: #6b7280;
+  margin-bottom: 20px;
+}

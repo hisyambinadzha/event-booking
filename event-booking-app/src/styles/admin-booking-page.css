@@ -1,0 +1,154 @@
+.admin-bookings {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: -40px;
+}
+
+.admin-bookings h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+  text-align: center;
+}
+
+.admin-bookings table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.admin-bookings th {
+  background-color: #0078d7;
+  color: #fff;
+  text-align: left;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.admin-bookings td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.admin-bookings tr:nth-child(even) {
+  background-color: #f4f8fb;
+}
+
+.admin-bookings tr:hover {
+  background-color: #eaf3ff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Table cell with action buttons */
+.admin-bookings td:last-child {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* spacing between buttons */
+  font-weight: 600;
+}
+
+.status-pending {
+  color: #ffbf00;
+}
+
+.status-approved {
+  color: #28a745;
+}
+
+.status-cancelled {
+  color: #dc3545;
+}
+
+.status-rejected {
+  color: #6c757d;
+}
+
+/* Shared button styles */
+.approve-btn,
+.reject-btn {
+  flex: 1; /* stretch equally */
+  min-width: 100px; /* minimum width */
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease-in-out;
+  text-align: center;
+}
+
+/* Approve button */
+.approve-btn {
+  background-color: #28a745; /* green */
+  color: #fff;
+}
+
+.approve-btn:hover {
+  background-color: #218838; /* darker green */
+}
+
+/* Reject button */
+.reject-btn {
+  background-color: #dc3545; /* red */
+  color: #fff;
+}
+
+.reject-btn:hover {
+  background-color: #c82333; /* darker red */
+}
+
+/* Disabled/no-action placeholder */
+.no-action {
+  flex: 1;
+  min-width: 100px;
+  text-align: center;
+  color: #999;
+  font-style: italic;
+}
+
+/* Error message container */
+.error-message {
+  margin: 20px auto;
+  padding: 16px 20px;
+  max-width: 600px;
+  border: 1px solid #f5c2c7;
+  background-color: #fdecea;
+  color: #842029;
+  border-radius: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Optional icon */
+.error-message::before {
+  content: "⚠️";
+  font-size: 18px;
+}
+
+/* Optional retry button */
+.error-retry-btn {
+  margin-left: auto;
+  padding: 6px 12px;
+  background-color: #842029;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.error-retry-btn:hover {
+  background-color: #6c1a1e;
+}
