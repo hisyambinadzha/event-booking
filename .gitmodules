@@ -1,6 +1,0 @@
-[submodule "Projects/event-booking-app"]
-	path = Projects/event-booking-app
-	url = https://github.com/hisyambinadzha/event-booking-app
-[submodule "Projects/event-booking-service"]
-	path = Projects/event-booking-service
-	url = https://github.com/hisyambinadzha/event-booking-service
