@@ -1,0 +1,592 @@
+[{
+  "title": "RockFest 2026",
+  "description": "A high-energy rock concert featuring top local and international bands.",
+  "category": "concert",
+  "venue": "National Stadium",
+  "eventDate": {
+    "$date": "2026-08-14T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "150"
+  },
+  "capacity": 120,
+  "seatsAvailable": 120,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.110Z"
+  },
+  "image": "/uploads/concert.jpg"
+},
+{
+  "title": "Auto Expo Kuala Lumpur",
+  "description": "Showcasing the latest cars, bikes, and automotive technology.",
+  "category": "auto",
+  "venue": "MITEC",
+  "eventDate": {
+    "$date": "2026-07-09T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "50"
+  },
+  "capacity": 300,
+  "seatsAvailable": 300,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.290Z"
+  },
+  "image": "/uploads/auto.jpg"
+},
+{
+  "title": "Summer Carnival",
+  "description": "A family-friendly carnival with games, food stalls, and live performances.",
+  "category": "carnival",
+  "venue": "Dataran Merdeka",
+  "eventDate": {
+    "$date": "2026-06-04T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "30"
+  },
+  "capacity": 500,
+  "seatsAvailable": 500,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.344Z"
+  },
+  "image": "/uploads/carnival.jpg"
+},
+{
+  "title": "Jazz Night Live",
+  "description": "An intimate evening of smooth jazz with renowned musicians.",
+  "category": "concert",
+  "venue": "KL Convention Centre",
+  "eventDate": {
+    "$date": "2026-09-19T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "120"
+  },
+  "capacity": 80,
+  "seatsAvailable": 80,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.388Z"
+  },
+  "image": "/uploads/concert.jpg"
+},
+{
+  "title": "Malaysia Auto Show 2026",
+  "description": "Explore cutting-edge vehicles and test drives at Malaysia’s biggest auto show.",
+  "category": "auto",
+  "venue": "Sepang International Circuit",
+  "eventDate": {
+    "$date": "2026-08-24T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "40"
+  },
+  "capacity": 450,
+  "seatsAvailable": 439,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.466Z"
+  },
+  "image": "/uploads/auto.jpg"
+},
+{
+  "title": "Food & Music Carnival",
+  "description": "A vibrant mix of street food and live music performances.",
+  "category": "carnival",
+  "venue": "Setia City Mall",
+  "eventDate": {
+    "$date": "2026-06-11T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "20"
+  },
+  "capacity": 300,
+  "seatsAvailable": 288,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.541Z"
+  },
+  "image": "/uploads/carnival.jpg"
+},
+{
+  "title": "EDM Festival KL",
+  "description": "Dance all night with world-famous DJs and electrifying light shows.",
+  "category": "concert",
+  "venue": "Bukit Jalil Stadium",
+  "eventDate": {
+    "$date": "2026-10-04T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "180"
+  },
+  "capacity": 200,
+  "seatsAvailable": 200,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.588Z"
+  },
+  "image": "/uploads/concert.jpg"
+},
+{
+  "title": "Classic Car Expo",
+  "description": "A showcase of vintage and classic cars for enthusiasts and collectors.",
+  "category": "auto",
+  "venue": "PWTC",
+  "eventDate": {
+    "$date": "2026-07-17T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "35"
+  },
+  "capacity": 250,
+  "seatsAvailable": 247,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.657Z"
+  },
+  "image": "/uploads/auto.jpg"
+},
+{
+  "title": "Family Fun Fair",
+  "description": "Exciting rides, games, and family entertainment all in one place.",
+  "category": "carnival",
+  "venue": "Sunway Lagoon",
+  "eventDate": {
+    "$date": "2026-05-31T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "25"
+  },
+  "capacity": 600,
+  "seatsAvailable": 600,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.691Z"
+  },
+  "image": "/uploads/carnival.jpg"
+},
+{
+  "title": "K-Pop Night Concert",
+  "description": "A spectacular night with popular K-Pop idols performing live.",
+  "category": "concert",
+  "venue": "Axiata Arena",
+  "eventDate": {
+    "$date": "2026-11-29T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "220"
+  },
+  "capacity": 150,
+  "seatsAvailable": 137,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.720Z"
+  },
+  "image": "/uploads/concert.jpg"
+},
+{
+  "title": "Tech Innovation Summit",
+  "description": "Industry leaders discuss the future of technology and innovation.",
+  "category": "conference",
+  "venue": "KL Convention Centre",
+  "eventDate": {
+    "$date": "2026-01-07T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "100"
+  },
+  "capacity": 400,
+  "seatsAvailable": 400,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.758Z"
+  },
+  "image": "/uploads/conference.jpg"
+},
+{
+  "title": "International Book Fair",
+  "description": "Discover books from around the world and meet your favorite authors.",
+  "category": "expo",
+  "venue": "Putra World Trade Centre",
+  "eventDate": {
+    "$date": "2026-02-14T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "10"
+  },
+  "capacity": 800,
+  "seatsAvailable": 800,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.789Z"
+  },
+  "image": "/uploads/expo.jpg"
+},
+{
+  "title": "Comedy Night Special",
+  "description": "An evening of laughter with stand-up comedians and sketch performances.",
+  "category": "show",
+  "venue": "Panggung Bandaraya",
+  "eventDate": {
+    "$date": "2026-03-21T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "60"
+  },
+  "capacity": 150,
+  "seatsAvailable": 150,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.823Z"
+  },
+  "image": "/uploads/show.jpg"
+},
+{
+  "title": "Startup Pitch Fest",
+  "description": "Watch startups pitch their ideas to investors and industry experts.",
+  "category": "conference",
+  "venue": "Cyberjaya Innovation Hub",
+  "eventDate": {
+    "$date": "2026-04-04T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "80"
+  },
+  "capacity": 200,
+  "seatsAvailable": 200,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.858Z"
+  },
+  "image": "/uploads/conference.jpg"
+},
+{
+  "title": "Ramadan Food Bazaar",
+  "description": "A festive bazaar offering traditional delicacies during Ramadan.",
+  "category": "carnival",
+  "venue": "Shah Alam Stadium",
+  "eventDate": {
+    "$date": "2026-04-11T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "0"
+  },
+  "capacity": 1000,
+  "seatsAvailable": 1000,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.913Z"
+  },
+  "image": "/uploads/carnival.jpg"
+},
+{
+  "title": "International Film Festival",
+  "description": "Screenings of award-winning films and premieres from global cinema.",
+  "category": "festival",
+  "venue": "GSC Pavilion KL",
+  "eventDate": {
+    "$date": "2026-05-19T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "50"
+  },
+  "capacity": 350,
+  "seatsAvailable": 350,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:29.961Z"
+  },
+  "image": "/uploads/festival.jpg"
+},
+{
+  "title": "Yoga & Wellness Retreat",
+  "description": "A rejuvenating retreat with yoga sessions and holistic wellness activities.",
+  "category": "wellness",
+  "venue": "Langkawi Beach Resort",
+  "eventDate": {
+    "$date": "2026-06-01T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "200"
+  },
+  "capacity": 100,
+  "seatsAvailable": 100,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:30.005Z"
+  },
+  "image": "/uploads/wellness.jpg"
+},
+{
+  "title": "Art & Culture Expo",
+  "description": "An exhibition of art, crafts, and cultural performances.",
+  "category": "expo",
+  "venue": "National Art Gallery",
+  "eventDate": {
+    "$date": "2026-06-17T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "25"
+  },
+  "capacity": 250,
+  "seatsAvailable": 250,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:30.067Z"
+  },
+  "image": "/uploads/expo.jpg"
+},
+{
+  "title": "Tech Hackathon 2026",
+  "description": "A coding marathon where teams build innovative solutions in 24 hours.",
+  "category": "conference",
+  "venue": "Sunway University",
+  "eventDate": {
+    "$date": "2026-06-29T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "30"
+  },
+  "capacity": 300,
+  "seatsAvailable": 300,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:30.234Z"
+  },
+  "image": "/uploads/conference.jpg"
+},
+{
+  "title": "Indie Music Festival",
+  "description": "Celebrate indie bands and emerging artists in a lively outdoor festival.",
+  "category": "concert",
+  "venue": "Petaling Jaya Park",
+  "eventDate": {
+    "$date": "2026-07-14T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "90"
+  },
+  "capacity": 500,
+  "seatsAvailable": 500,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:30.299Z"
+  },
+  "image": "/uploads/concert.jpg"
+},
+{
+  "title": "Science Discovery Expo",
+  "description": "Interactive exhibits and experiments for science enthusiasts of all ages.",
+  "category": "expo",
+  "venue": "KL Science Centre",
+  "eventDate": {
+    "$date": "2026-07-27T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "20"
+  },
+  "capacity": 400,
+  "seatsAvailable": 397,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:30.348Z"
+  },
+  "image": "/uploads/expo.jpg"
+},
+{
+  "title": "Traditional Dance Gala",
+  "description": "A showcase of Malaysia’s rich cultural heritage through dance.",
+  "category": "show",
+  "venue": "Istana Budaya",
+  "eventDate": {
+    "$date": "2026-08-09T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "70"
+  },
+  "capacity": 250,
+  "seatsAvailable": 250,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:30.387Z"
+  },
+  "image": "/uploads/show.jpg"
+},
+{
+  "title": "International Chess Tournament",
+  "description": "Top chess players compete in an international tournament.",
+  "category": "sports",
+  "venue": "KL Tower Hall",
+  "eventDate": {
+    "$date": "2026-08-17T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "40"
+  },
+  "capacity": 150,
+  "seatsAvailable": 150,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:30.454Z"
+  },
+  "image": "/uploads/sport.jpg"
+},
+{
+  "title": "Marathon KL 2026",
+  "description": "Annual marathon through Kuala Lumpur’s iconic landmarks.",
+  "category": "sports",
+  "venue": "Dataran Merdeka",
+  "eventDate": {
+    "$date": "2026-08-31T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "60"
+  },
+  "capacity": 2000,
+  "seatsAvailable": 2000,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:30.467Z"
+  },
+  "image": "/uploads/sport.jpg"
+},
+{
+  "title": "Fashion Week Kuala Lumpur",
+  "description": "Runway shows featuring top designers and fashion brands.",
+  "category": "expo",
+  "venue": "Starhill Gallery",
+  "eventDate": {
+    "$date": "2026-09-11T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "150"
+  },
+  "capacity": 300,
+  "seatsAvailable": 300,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:30.537Z"
+  },
+  "image": "/uploads/expo.jpg"
+},
+{
+  "title": "International Robotics Expo",
+  "description": "Discover the latest in robotics and AI technology.",
+  "category": "expo",
+  "venue": "MITEC",
+  "eventDate": {
+    "$date": "2026-11-14T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "70"
+  },
+  "capacity": 350,
+  "seatsAvailable": 350,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:30.564Z"
+  },
+  "image": "/uploads/expo.jpg"
+},
+{
+  "title": "Halloween Horror Night",
+  "description": "Spooky attractions and haunted houses for thrill seekers.",
+  "category": "festival",
+  "venue": "Sunway Lagoon",
+  "eventDate": {
+    "$date": "2026-10-30T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "80"
+  },
+  "capacity": 600,
+  "seatsAvailable": 600,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:30.568Z"
+  },
+  "image": "/uploads/festival.jpg"
+},
+{
+  "title": "Christmas Wonderland Carnival",
+  "description": "Celebrate the festive season with dazzling lights, holiday performances, and family-friendly activities.",
+  "category": "carnival",
+  "venue": "IOI City Mall",
+  "eventDate": {
+    "$date": "2026-12-19T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "30"
+  },
+  "capacity": 500,
+  "seatsAvailable": 496,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:30.622Z"
+  },
+  "image": "/uploads/carnival.jpg"
+},
+{
+  "title": "New Year Countdown Party",
+  "description": "Ring in the New Year with live music, fireworks, and an unforgettable countdown celebration.",
+  "category": "concert",
+  "venue": "KLCC Park",
+  "eventDate": {
+    "$date": "2026-12-30T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "100"
+  },
+  "capacity": 1000,
+  "seatsAvailable": 996,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:30.650Z"
+  },
+  "image": "/uploads/concert.jpg"
+},
+{
+  "title": "Chinese New Year Festival",
+  "description": "A vibrant cultural festival featuring lion dances, traditional food, and festive performances to welcome the Lunar New Year.",
+  "category": "festival",
+  "venue": "Petaling Street",
+  "eventDate": {
+    "$date": "2027-02-07T16:00:00Z"
+  },
+  "price": {
+    "$numberDecimal": "0"
+  },
+  "capacity": 120,
+  "seatsAvailable": 122,
+  "status": "OPEN",
+  "createdAt": {
+    "$date": "2026-05-26T06:07:30.686Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T08:18:28.066Z"
+  },
+  "image": "/uploads/festival.jpg"
+},
+{
+  "title": "CubPrix Open Championships 2026",
+  "description": "The term \"Cub Prix\" refers to a popular professional motorcycle racing championship in Malaysia, specifically featuring \"underbone\" motorcycles, commonly known in the region as kapcai.",
+  "category": "Sport",
+  "venue": "Public Road",
+  "eventDate": {
+    "$date": "2026-06-08T07:57:00Z"
+  },
+  "price": {
+    "$numberDecimal": "12"
+  },
+  "capacity": 12,
+  "seatsAvailable": 10,
+  "status": "DRAFT",
+  "createdAt": {
+    "$date": "2026-06-07T08:17:43.169Z"
+  },
+  "image": "/uploads/cubprix.jpg"
+}]
